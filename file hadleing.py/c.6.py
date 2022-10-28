@@ -1,0 +1,8 @@
+a=input('enter directory of reading ')
+dir1=r'{}'.format(a)
+b=input('enter directory of writing ')
+dir2=r'{}'.format(b)
+file1=open(dir1,'r')
+file2=open(dir2,'w')
+readed=file1.read()
+file2.write(readed)

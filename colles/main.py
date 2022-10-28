@@ -1,0 +1,2 @@
+import raceselect
+raceselect.run()
